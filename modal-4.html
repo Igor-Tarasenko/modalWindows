@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal Windows</title>
+    <link href="./css/main.css" rel="stylesheet">
+</head>
+<body class="modal-open">
+
+<main>
+
+    <div class="modal fade show" id="fourModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <img src="./img/stop.png" alt="">
+                <p>This information is known about you: <span>Via IP</span> IP Address</p>
+                <p><span>113.21.45.236</span></p>
+                <p>WATCH VIDEOS PRIVATELY</p>
+                <p><span>Change your IP Address</span></p>
+                <ul>
+                    <li><p><span>Step 1:</span> Install from AppStore</p></li>
+                    <li><p><span>Step 2:</span> Click "Start for Free"</p></li>
+                    <li><p><span>Step 3:</span> Browse Privately</p></li>
+                </ul>
+                <a href="#">Install free vpn</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal-buttons">
+        <button type="button" class="btn" data-toggle="modal" data-target="#fourModal">Modal 4</button>
+    </div>
+    <div class="bg-img"></div>
+</main>
+<script src="./js/libs.min.js"></script>
+<script src="./js/main.js"></script>
+<div class="modal-backdrop fade show"></div>
+</body>
+</html>

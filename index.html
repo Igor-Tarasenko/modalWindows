@@ -7,10 +7,9 @@
     <title>Modal Windows</title>
     <link href="./css/main.css" rel="stylesheet">
 </head>
-<body>
-
+<body class="modal-open">
 <main>
-    <div class="modal fade" id="firstModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade show" id="firstModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -31,84 +30,15 @@
             </div>
         </div>
     </div>
-    <div class="modal fade" id="secondModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                    <p class="bold">VPN Update</p>
-                    <p>Please Download The Free VPN App To Continue Watching</p>
-                <div class="modal-footer">
-                    <a href="#" data-dismiss="modal">Install</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="modal fade" id="thirdModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <p class="bold">Click <a href="#">INSTALL,</a> to play the video</p>
-                <div class="small-text">
-                    <p>Video will be unblocked after installing VPN</p>
-                    <p>Stream and download avalible</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="modal fade" id="fourModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <img src="./img/stop.png" alt="">
-                <p>This information is known about you: <span>Via IP</span> IP Address</p>
-                <p><span>113.21.45.236</span></p>
-                <p>WATCH VIDEOS PRIVATELY</p>
-                <p><span>Change your IP Address</span></p>
-                <ul>
-                    <li><p><span>Step 1:</span> Install from AppStore</p></li>
-                    <li><p><span>Step 2:</span> Click "Start for Free"</p></li>
-                    <li><p><span>Step 3:</span> Browse Privately</p></li>
-                </ul>
-                <a href="#">Install free vpn</a>
-            </div>
-        </div>
-    </div>
-    <div class="modal fade" id="fiveModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <img src="./img/istockphoto.png" alt="">
-                <p> <span>YOUR CARRIER</span> Knows what you're watching by your IP address: 66.102.158.2</p>
-                <p>WATCH VIDEOS PRIVATELY</p>
-                <p><span>Change your IP Address</span></p>
-                <ul>
-                    <li><p><span>Step 1:</span> Install from AppStore</p></li>
-                    <li><p><span>Step 2:</span> Click Connect</p></li>
-                    <li><p><span>Step 3:</span> Browse Privately</p></li>
-                </ul>
-                <a href="#">Install free vpn</a>
-            </div>
-        </div>
-    </div>
-    <div class="modal fade" id="sixModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <p class="bold">Oops!</p>
-                <p>Please Download The Free VPN App To Continue Watching</p>
-                <div class="modal-footer">
-                    <a href="#" data-dismiss="modal">Install</a>
-                </div>
-            </div>
-        </div>
-    </div>
 
 
     <div class="modal-buttons">
         <button type="button" class="btn" data-toggle="modal" data-target="#firstModal">Modal 1</button>
-        <button type="button" class="btn" data-toggle="modal" data-target="#secondModal">Modal 2</button>
-        <button type="button" class="btn" data-toggle="modal" data-target="#thirdModal">Modal 3</button>
-        <button type="button" class="btn" data-toggle="modal" data-target="#fourModal">Modal 4</button>
-        <button type="button" class="btn" data-toggle="modal" data-target="#fiveModal">Modal 5</button>
-        <button type="button" class="btn" data-toggle="modal" data-target="#sixModal">Modal 6</button>
     </div>
+    <div class="bg-img"></div>
 </main>
 <script src="./js/libs.min.js"></script>
 <script src="./js/main.js"></script>
+<div class="modal-backdrop fade show"></div>
 </body>
 </html>

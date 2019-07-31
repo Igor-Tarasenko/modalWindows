@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal Windows</title>
+    <link href="./css/main.css" rel="stylesheet">
+</head>
+<body class="modal-open">
+
+<main>
+
+    <div class="modal fade show" id="thirdModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <p class="bold">Click <a href="#">INSTALL,</a> to play the video</p>
+                <div class="small-text">
+                    <p>Video will be unblocked after installing VPN</p>
+                    <p>Stream and download avalible</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal-buttons">
+        <button type="button" class="btn" data-toggle="modal" data-target="#thirdModal">Modal 3</button>
+    </div>
+    <div class="bg-img"></div>
+</main>
+<script src="./js/libs.min.js"></script>
+<script src="./js/main.js"></script>
+<div class="modal-backdrop fade show"></div>
+</body>
+</html>
